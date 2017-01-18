@@ -1,5 +1,5 @@
 {
-  "name": "string-replace-loader-XRegExp",
+  "name": "string-replace-XRegExp-loader",
   "version": "1.0.0",
   "description": "XRegExp Replace loader for Webpack",
   "keywords": [
@@ -7,6 +7,8 @@
     "loader",
     "webpack-loader",
     "replace",
+    "string-replace-xregexp",
+    "xregexp",
     "string-replace",
     "regex-replace"
   ],
@@ -29,9 +31,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Infomaker/string-replace-loader-XRegExp"
+    "url": "https://github.com/Infomaker/string-replace-XRegExp-loader"
   },
-  "homepage": "https://github.com/Infomaker/string-replace-loader-XRegExp",
+  "homepage": "https://github.com/Infomaker/string-replace-XRegExp-loader",
   "author": "Johan Sundén <johan.sunden@infomaker.se>",
   "license": "MIT",
   "private": true
