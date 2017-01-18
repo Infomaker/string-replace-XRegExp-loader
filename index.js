@@ -1,10 +1,11 @@
 var _ = require('lodash');
 var utils = require('loader-utils');
+var XRegExp = require('xregexp');
 
 function processQuery(source, query) {
   if (!_.isUndefined(query.search) && !_.isUndefined(query.replace)) {
     if (!_.isUndefined(query.flags)) {
-      query.search = new RegExp(query.search, query.flags);
+      query.search = new XRegExp(query.search, query.flags);
     }
 
     source = source.replace(query.search, query.replace);
